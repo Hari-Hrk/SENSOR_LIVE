@@ -17,9 +17,16 @@ i want to create sensor fault prediction project
 - sensor/config.py  -> load mongodb url
 - utils_file
 
-### mongodb connection 
+### steps for  mongodb to csv and data ingestion
 
-- .env -> declare mongo link
+- config/schema.yaml
 - constant/env_variable.py & database.py
 - configuration/mongodb_db_connection.py
 - data_access / sensor_data.py
+- config/schema.yaml  == out of sensor folder
+- sensor/constants/training_pipeline/__init__.py
+- sensor/entity/artifact_entity.py
+- sensor/enity/config_entity.py
+- sensor/components/data_ingestion.py  -> this file mongodb data starts
+- sensor/pipeline/training_pipeline.py
+- main.py

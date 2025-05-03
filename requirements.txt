@@ -4,5 +4,11 @@ numpy<2
 scikit-learn
 pymongo
 python-dotenv
+PyYAML
+dill
+scipy
+imblearn==0.0
+xgboost==1.6.2
+fastapi
 
 #-e .   #editable mode 
