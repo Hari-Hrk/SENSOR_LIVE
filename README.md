@@ -10,3 +10,14 @@ i want to create sensor fault prediction project
 
 4. python setup.py install
 
+
+## steps
+- load env files data in sensor/__init__.py
+- sensor/config.py  -> load mongodb url
+
+### mongodb connection 
+
+- .env -> declare mongo link
+- constant/env_variable.py & database.py
+- configuration/mongodb_db_connection.py
+- data_access / sensor_data.py
