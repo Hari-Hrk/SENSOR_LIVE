@@ -2,7 +2,6 @@ import os
 import logging
 from dotenv import load_dotenv
 import pymongo
-import pymongo.mongo_client
 from sensor.constant.database import DATABASE_NAME
 from sensor.constant.env_variable import MONGODB_URL_KEY
 import certifi

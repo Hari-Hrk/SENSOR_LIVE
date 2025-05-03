@@ -11,9 +11,11 @@ i want to create sensor fault prediction project
 4. python setup.py install
 
 
-## steps
+## steps for send csv data to mongodb
+- .env file
 - load env files data in sensor/__init__.py
 - sensor/config.py  -> load mongodb url
+- utils_file
 
 ### mongodb connection 
 
