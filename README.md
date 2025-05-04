@@ -19,14 +19,31 @@ i want to create sensor fault prediction project
 
 ### steps for  mongodb to csv and data ingestion
 
-- config/schema.yaml
 - constant/env_variable.py & database.py
 - configuration/mongodb_db_connection.py
 - data_access / sensor_data.py
-- config/schema.yaml  == out of sensor folder
 - sensor/constants/training_pipeline/__init__.py
 - sensor/entity/artifact_entity.py
 - sensor/enity/config_entity.py
 - sensor/components/data_ingestion.py  -> this file mongodb data starts
 - sensor/pipeline/training_pipeline.py
 - main.py
+
+
+# data validation part flow
+
+- config/schema.yaml
+- utils/main_utils.py
+- constant/artifact & config entity
+- sensor/component/data_validation
+- pipeline/training_pipeline file update in run_pipeline function
+- main.py
+
+# data transmations
+- constant/training_pipeline/__init__.py
+- config/entity/artifact & config
+- sensor/components/data_transformation
+- utils/main_utils
+- ml folder -> works on model folder like estimator.py
+- component/data_transformation
+- pipeline/training_pipeline
