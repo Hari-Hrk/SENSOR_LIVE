@@ -47,3 +47,12 @@ i want to create sensor fault prediction project
 - ml folder -> works on model folder like estimator.py
 - component/data_transformation
 - pipeline/training_pipeline
+
+
+# model trainer
+- constant/training_pipeline/__init__.py
+- utls/main_utls.py --> load file function
+- ml/metric
+- config/entity/artifact & config
+- components/model_trainer
+- pipeline/training_pipeline
