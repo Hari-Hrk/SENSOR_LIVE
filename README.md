@@ -56,3 +56,8 @@ i want to create sensor fault prediction project
 - config/entity/artifact & config
 - components/model_trainer
 - pipeline/training_pipeline
+
+# model tevaluation
+- constant/training_pipeline/__init__.py
+- config/entity/artifact & config
+- components/model_evaluation
